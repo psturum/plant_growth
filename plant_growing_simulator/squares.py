@@ -51,7 +51,7 @@ for i, (parameter, range_) in enumerate(zip(parameters, ranges)):
 
 def draw_interface(plant, points, point_list):
     window.fill(BLACK)
-    lives_text.setText("Antal liv - " + str(lives))
+    lives_text.setText("Antal forsøg - " + str(lives))
     # Load plant name
     plant_name_text = font_header.render(plant.name, True, GREY1)
     # Draw gridlines
